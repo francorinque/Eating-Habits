@@ -1,0 +1,41 @@
+{
+  "section-nav": {
+    "logo": "https://res.cloudinary.com/dj0postuh/image/upload/v1713461491/landing-ia/logo/logo-with-text.svg",
+    "links": [
+      {
+        "id": 1,
+        "text": "Features",
+        "href": "#features"
+      },
+      {
+        "id": 2,
+        "text": "Blogs",
+        "href": "#blogs"
+      }
+    ],
+    "button-one": {
+      "text": "Login",
+      "href": "#"
+    },
+    "button-two": {
+      "text": "Sign Up",
+      "href": "#"
+    }
+  },
+  "section-one": {
+    "title": {
+      "big": "Healthy",
+      "small": "living made easy!!"
+    },
+    "subtitle": "Get your custom plans & one-on-one guidance from our experts",
+    "button": {
+      "text": "Sign In",
+      "href": "#",
+      "buttonDesc": "Sign in & get started today"
+    },
+    "img": {
+      "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713542984/landing-ia/hero-img.png",
+      "alt": "food picture"
+    }
+  }
+}
