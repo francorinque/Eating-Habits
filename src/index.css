@@ -16,10 +16,6 @@ body {
   color: "#181818";
 }
 
-img {
-  object-fit: cover;
-}
-
 .clip-custom {
   clip-path: polygon(
     52% 0,

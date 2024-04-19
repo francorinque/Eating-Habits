@@ -11,19 +11,26 @@ const Navbar = () => {
   return (
     <header
       className={`
-      flex justify-between items-center  pr-2
-      h-[78px] fixed top-0 left-[50%] translate-x-[-50%] w-full max-w-maxWidth z-[98]
+      z-[98] fixed top-0 left-0 w-full   h-[78px] flex items-center justify-center
+      ${hasScrolled ? "bg-[#DDF7E3]  shadow-sm" : "bg-transparent"}
    `}
     >
-      <Logo />
-      <button
-        className='text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden'
-        onClick={handleIsOpen}
+      <nav
+        className={`
+       flex justify-between items-center  pr-2 relative h-full
+       w-full max-w-maxWidth
+      `}
       >
-        {isOpen ? <BsXLg /> : <BsJustify />}
-      </button>
-      <MenuDesktop />
-      <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
+        <Logo />
+        <button
+          className='text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden'
+          onClick={handleIsOpen}
+        >
+          {isOpen ? <BsXLg /> : <BsJustify />}
+        </button>
+        <MenuDesktop />
+        <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
+      </nav>
     </header>
   );
 };

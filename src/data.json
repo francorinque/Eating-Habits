@@ -37,5 +37,54 @@
       "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713542984/landing-ia/hero-img.png",
       "alt": "food picture"
     }
+  },
+  "section-two": {
+    "text": {
+      "front": "Why healthy",
+      "back": "LIFESTYLE"
+    },
+    "list-items": [
+      {
+        "id": 1,
+        "text": "Improved physical health"
+      },
+      {
+        "id": 2,
+        "text": "Better mental health"
+      },
+      {
+        "id": 3,
+        "text": "Increased longevity"
+      },
+      {
+        "id": 4,
+        "text": "Weight management"
+      },
+      {
+        "id": 5,
+        "text": "Improved self-confidence"
+      },
+      {
+        "id": 6,
+        "text": "Reduced stress"
+      }
+    ],
+    "list-images": [
+      {
+        "id": 1,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713559144/landing-ia/list-img/ymqibweprmuy0iesrmfb.jpg",
+        "alt": "list image"
+      },
+      {
+        "id": 2,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713559144/landing-ia/list-img/h7va4nwztuj1ze48t1rh.jpg",
+        "alt": "list image"
+      },
+      {
+        "id": 3,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713559144/landing-ia/list-img/sgic33vbbih3kzr7twv0.jpg",
+        "alt": "list image"
+      }
+    ]
   }
 }
