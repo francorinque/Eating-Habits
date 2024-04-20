@@ -5,15 +5,17 @@ const LifeStyle = () => {
     <div className=' flex flex-col gap-4 items-start justify-center w-full'>
       {/* texts */}
       <div className='relative mx-auto'>
-        <h2 className='text-[40px] font-bold md:text-[100px]   text-[#e7e7e7] '>
+        <h2 className='text-[40px] font-bold md:text-[100px]  text-[#e7e7e7] '>
           {data["section-two"].text.back}
         </h2>
         <div
           className='absolute  left-0 top-0 w-full h-full
-                    flex items-center justify-center 
-                 '
+          flex items-center justify-center 
+         '
         >
-          <span className='text-[30px] '>{data["section-two"].text.front}</span>
+          <span className='text-[30px] font-semibold'>
+            {data["section-two"].text.front}
+          </span>
         </div>
       </div>
 

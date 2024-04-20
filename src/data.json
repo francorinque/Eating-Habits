@@ -86,5 +86,26 @@
         "alt": "list image"
       }
     ]
+  },
+  "section-three": {
+    "title": "We have plans for",
+    "desc": "Build healthier habits with personalized lessons",
+    "items": [
+      {
+        "id": 1,
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/v1713638723/landing-ia/szcn3s6bbte0ofydfozu.svg",
+        "text": "Loosing weight"
+      },
+      {
+        "id": 2,
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/v1713638723/landing-ia/udcgdasgmlusaqgx2yrm.svg",
+        "text": "Gaining weight"
+      },
+      {
+        "id": 3,
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/v1713638723/landing-ia/ye7cbkigyz7xgqfeavwb.svg",
+        "text": "Maintaining weight"
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import LifeStyle from "./components/LifeStyle";
 import Navbar from "./components/Navbar/Navbar";
+import Plans from "./components/Plans";
 import Layout from "./components/ui/Layout";
 import WaveBottom from "./components/ui/WaveBottom";
 
@@ -21,7 +22,17 @@ function App() {
         <section className='py-[100px]'>
           <LifeStyle />
         </section>
+        <section className='py-[100px]'>
+          <Plans />
+        </section>
       </Layout>
+      <img
+        src='https://res.cloudinary.com/dj0postuh/image/upload/v1713636981/landing-ia/kb6jqinkumgxq7qaxuw8.png'
+        alt='imagen png de frutillas'
+        className='
+            absolute left-[-300px] top-[1100px] md:top-[1700px] z-10
+          '
+      />
     </main>
   );
 }
