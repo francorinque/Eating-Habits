@@ -107,5 +107,191 @@
         "text": "Maintaining weight"
       }
     ]
+  },
+  "section-four": {
+    "title": {
+      "left": "have a",
+      "middle": "HealthyBite",
+      "right": "for"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "Find a diet you love",
+        "desc": "Find a nutritious Diet that fits your lifestyle and food preferences. Take charge of your daily habits with one of the many ongoing Diets including Clean Eating and High Protein",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713796654/landing-ia/have/bjj3hl0svva6yrwh9alc.png",
+          "alt": "un plato de ensalada"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Start a simplified meal plan",
+        "desc": "Follow a 7-21 day Meal Plan and get four pre-planned recipes a day. Depending on your health goals, there are many Meal Plans to choose from including Keto Burn and Vegan for a week.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713796654/landing-ia/have/g0ccl7z4pu4ue9tem0ba.png",
+          "alt": "frutas"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Track your way to success",
+        "desc": "Track your activities and what you eat with the help of our food-, exercise- and water trackers to maintain a balanced everyday life.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713796654/landing-ia/have/t3ge4ap6yw3b7vanelfu.png",
+          "alt": "vasos de jugos de fruta"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Start your own healthy journey",
+        "desc": "To help you reach your goals and customize your health journey you can add your favorite meals, food items, recipes and exercises to your Favorites.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713796653/landing-ia/have/w6xvnncjk5eethcqiq3u.png",
+          "alt": "vasos de jugos de fruta"
+        }
+      }
+    ]
+  },
+  "section-five": {
+    "title": "Do not know where to start?",
+    "btn": {
+      "tex": "Contact us",
+      "href": "#"
+    }
+  },
+  "section-six": {
+    "title": {
+      "left": "What is a",
+      "middle": "HealthyBite",
+      "right": "for you ?"
+    },
+    "img": {
+      "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713799217/landing-ia/zdcegid79ye5x2uv9phs.png",
+      "alt": "computadora"
+    },
+    "items": [
+      {
+        "id": 1,
+        "text": "Diet tracker"
+      },
+      {
+        "id": 2,
+        "text": "Best nutrition advice"
+      },
+      {
+        "id": 3,
+        "text": "Exercise portal"
+      },
+      {
+        "id": 4,
+        "text": "Meal planner"
+      },
+      {
+        "id": 5,
+        "text": "Recipes database"
+      },
+      {
+        "id": 6,
+        "text": "One stop shop for nutritions"
+      },
+      {
+        "id": 7,
+        "text": "Community"
+      }
+    ]
+  },
+  "section-seven": {
+    "title": {
+      "left": "diet",
+      "right": "Products"
+    },
+    "desc": "HealthyBite making it easy for you to get your diet product supply from the same platform as well",
+    "list-texts": [
+      { "id": 1, "text": "Search from a wide range" },
+      { "id": 2, "text": "Get the best one recommended from the nutritionist" }
+    ],
+    "list-products": [
+      {
+        "id": 1,
+        "text": "Whey protein Bodybuilding supplement Nutrition",
+        "info": "Net wt : 1.7kg",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "alt": "producto"
+        }
+      },
+      {
+        "id": 2,
+        "text": "Whey protein Bodybuilding supplement Nutrition",
+        "info": "Net wt : 1.7kg",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "alt": "producto"
+        }
+      },
+      {
+        "id": 3,
+        "text": "Whey protein Bodybuilding supplement Nutrition",
+        "info": "Net wt : 1.7kg",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "alt": "producto"
+        }
+      },
+      {
+        "id": 4,
+        "text": "Whey protein Bodybuilding supplement Nutrition",
+        "info": "Net wt : 1.7kg",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "alt": "producto"
+        }
+      }
+    ],
+    "btn": {
+      "href": "#",
+      "text": "Buy"
+    }
+  },
+  "section-eight": {
+    "title": {
+      "left": "The fresh new",
+      "right": "Food stories"
+    },
+    "desc": "With the recipes created (and put to the test) by our in-house team of professional chefs and nutritionists, we can promise you that healthy eating is delicious!",
+    "stories": [
+      {
+        "id": 1,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
+      },
+      {
+        "id": 2,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
+      },
+      {
+        "id": 3,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
+      }
+    ],
+    "stories-btn": {
+      "text": "Read more",
+      "href": "#"
+    }
   }
 }
