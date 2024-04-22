@@ -1,1 +1,1 @@
-# Platform for the Eating Habits of People and Pets
+# Platform for the Feeding Habits of People and Pets
