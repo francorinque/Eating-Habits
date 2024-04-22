@@ -17,7 +17,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
       <ul
         className={`
         fixed  left-0 top-0 px-2 py-5 h-screen
-        w-[50vw] min-w-[220px] flex flex-col gap-4  items-start text-black-900 bg-bg shadow-md
+        w-[50vw] min-w-[220px] flex flex-col gap-4  items-start text-black-900 bg-[#DDF7E3] shadow-md
          *:p-2 *:w-full *:text-center
         `}
       >
