@@ -287,11 +287,53 @@
           "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
           "alt": "mujer comiendo felizmente"
         }
+      },
+      {
+        "id": 4,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
+      },
+      {
+        "id": 5,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
+      },
+      {
+        "id": 6,
+        "text": "Diet, Fitness",
+        "desc": "Get all the protein you need on a plant based diet",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
+          "alt": "mujer comiendo felizmente"
+        }
       }
     ],
     "stories-btn": {
       "text": "Read more",
       "href": "#"
     }
+  },
+  "section-nine": {
+    "text": {
+      "left": "Invest in yourself and boost your health, body and confidence",
+      "right": "body and confidence"
+    },
+    "btn": {
+      "text": "Get started",
+      "href": "#"
+    },
+    "list-texts": [
+      { "id": 1, "text": "Quick account creation" },
+      { "id": 2, "text": "No commitment — cancel at any time" },
+      { "id": 3, "text": "Join over 45 million other users" }
+    ]
   }
 }

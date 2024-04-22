@@ -31,6 +31,6 @@ body {
 }
 
 .btn-1 {
-  @apply py-2 px-10 rounded-[10px] mt-5 text-white bg-gradient-to-r from-black-100 to-black-200 w-max
+  @apply py-2 px-10 rounded-[10px] mt-4 text-white bg-gradient-to-r from-black-100 to-black-200 w-max
   hover:from-black-100/80 hover:to-black-200/80;
 }

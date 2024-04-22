@@ -6,6 +6,7 @@ import LifeStyle from "./components/LifeStyle";
 import Navbar from "./components/Navbar/Navbar";
 import Plans from "./components/Plans";
 import Products from "./components/Products";
+import Start from "./components/Start";
 import WhatIs from "./components/WhatIs";
 import Layout from "./components/ui/Layout";
 import WaveBottom from "./components/ui/WaveBottom";
@@ -45,6 +46,9 @@ function App() {
         </section>
         <section className='py-[100px]'>
           <FoodStories />
+        </section>
+        <section className='py-[100px]'>
+          <Start />
         </section>
       </Layout>
       <img

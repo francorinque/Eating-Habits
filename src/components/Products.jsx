@@ -13,7 +13,7 @@ const Products = () => {
   const products = data["section-seven"]["list-products"];
 
   return (
-    <div className='p-5 lg:p-8  bg-bg rounded-md'>
+    <div className='p-5 lg:p-8  bg-bg rounded-md shadow-md'>
       <BigText textLeft={left} textRight={right} toRigth={true} />
       <div>
         <p className='text-center lg:text-left text-[14px] text-pretty'>
