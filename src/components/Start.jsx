@@ -7,11 +7,15 @@ const Start = () => {
   const right = data["section-nine"].text.right;
 
   return (
-    <div className='bg-bg rounded-sm shadow-md p-5 lg:p-10'>
+    <div className='bg-bg rounded-sm shadow-md p-5 lg:p-10' id='contact'>
       <BigText textLeft={left} textRight={right} toRigth />
       <div className='w-min mx-auto'>
         <PrimaryButton>
-          <a href={data["section-nine"].btn.href}>
+          <a
+            href={data["section-nine"].btn.href}
+            rel='noreferrer'
+            target='_blank'
+          >
             {data["section-nine"].btn.text}
           </a>
         </PrimaryButton>

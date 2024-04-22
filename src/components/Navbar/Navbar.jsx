@@ -23,7 +23,7 @@ const Navbar = () => {
       >
         <Logo />
         <button
-          className='text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden'
+          className='text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center lg:hidden'
           onClick={handleIsOpen}
         >
           {isOpen ? <BsXLg /> : <BsJustify />}

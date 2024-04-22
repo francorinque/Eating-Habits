@@ -3,7 +3,7 @@ import SeparatorGradient from "./ui/SeparatorGradient";
 
 const Plans = () => {
   return (
-    <div className='bg-bg p-5 rounded-md shadow-md'>
+    <div className='bg-bg p-5 rounded-md shadow-md' id='plans'>
       {/* text */}
       <div className='flex flex-col items-center justify-center gap-y-2'>
         <h2 className='font-semibold text-[20px] md:text-[25px]'>

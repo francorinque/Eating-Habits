@@ -1,6 +1,5 @@
 import data from "../../data.json";
 import MyLink from "../ui/MyLink";
-import OutlineButton from "../ui/OutlineButton";
 
 const MenuMobile = ({ isOpen, onClick }) => {
   const { links } = data["section-nav"];
@@ -9,7 +8,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
     <div
       className={`${
         isOpen ? "flex" : "hidden"
-      } bg-black-900/20 w-full h-screen fixed inset-0 md:hidden
+      } bg-black-900/20 w-full h-screen fixed inset-0 lg:hidden
         backdrop-blur-sm
       `}
       onClick={onClick}
@@ -26,22 +25,6 @@ const MenuMobile = ({ isOpen, onClick }) => {
             <MyLink href={link.href} text={link.text} />
           </li>
         ))}
-        <li>
-          <button className=' w-full'>
-            <MyLink
-              href={data["section-nav"]["button-one"].href}
-              text={data["section-nav"]["button-one"].text}
-            />
-          </button>
-        </li>
-        <li>
-          <OutlineButton>
-            <MyLink
-              href={data["section-nav"]["button-two"].href}
-              text={data["section-nav"]["button-two"].text}
-            />
-          </OutlineButton>
-        </li>
       </ul>
     </div>
   );

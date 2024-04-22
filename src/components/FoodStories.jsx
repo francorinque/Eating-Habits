@@ -9,8 +9,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 const FoodStories = () => {
   const left = data["section-eight"].title.left;
@@ -25,8 +26,10 @@ const FoodStories = () => {
 
       <Swiper
         navigation={true}
-        modules={[Navigation]}
-        className='mt-10'
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination, Navigation]}
         breakpoints={{
           100: {
             slidesPerView: 1,
@@ -41,6 +44,7 @@ const FoodStories = () => {
             spaceBetween: 20,
           },
         }}
+        className='py-20 mt-10'
       >
         {data["section-eight"].stories.map((story) => (
           <SwiperSlide>

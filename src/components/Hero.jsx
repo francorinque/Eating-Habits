@@ -8,6 +8,7 @@ const Hero = () => {
       flex-col gap-10  items-center justify-center
      lg:flex-row xl:justify-between pt-[120px]
     '
+      id='home'
     >
       {/* text */}
       <div

@@ -2,7 +2,10 @@ import data from "../data.json";
 
 const LifeStyle = () => {
   return (
-    <div className=' flex flex-col gap-4 items-start justify-center w-full'>
+    <div
+      className=' flex flex-col gap-4 items-start justify-center w-full'
+      id='life-style'
+    >
       {/* texts */}
       <div className='relative mx-auto'>
         <h2 className='text-[40px] font-bold md:text-[100px]  text-[#e7e7e7] '>

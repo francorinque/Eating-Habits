@@ -1,10 +1,10 @@
-const MyLink = ({ href, text }) => {
+const MyLink = ({ href, text, title, css }) => {
   return (
     <a
       href={href}
-      target='_blank'
-      rel='noreferrer'
-      className='hover:text-primary-dark-green  transition duration-100'
+      title={title && title}
+      className={`
+        hover:text-primary-dark-green  transition duration-100 ${css}`}
     >
       {text}
     </a>
