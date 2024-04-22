@@ -4,23 +4,53 @@
     "links": [
       {
         "id": 1,
-        "text": "Features",
-        "href": "#features"
+        "text": "Home",
+        "href": "#home",
+        "title": "Home"
       },
       {
         "id": 2,
-        "text": "Blogs",
-        "href": "#blogs"
+        "text": "Life style",
+        "href": "#life-style",
+        "title": "Life style"
+      },
+      {
+        "id": 3,
+        "text": "Plans",
+        "href": "#plans",
+        "title": "plans"
+      },
+      {
+        "id": 4,
+        "text": "Have a Healthy Bite For",
+        "href": "#have_a_healthy_bite_for",
+        "title": "Have a Healthy Bite For"
+      },
+      {
+        "id": 5,
+        "text": "What is a HealthyBite",
+        "href": "#What_is_a_HealthyBite",
+        "title": "What is a HealthyBite"
+      },
+      {
+        "id": 6,
+        "text": "Products",
+        "href": "#products",
+        "title": "Products"
+      },
+      {
+        "id": 7,
+        "text": "Contact",
+        "href": "#contact",
+        "title": "Contact"
+      },
+      {
+        "id": 8,
+        "text": "Reviews",
+        "href": "#reviews",
+        "title": "Reviews"
       }
-    ],
-    "button-one": {
-      "text": "Login",
-      "href": "#"
-    },
-    "button-two": {
-      "text": "Sign Up",
-      "href": "#"
-    }
+    ]
   },
   "section-one": {
     "title": {
@@ -327,13 +357,111 @@
       "right": "body and confidence"
     },
     "btn": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Contact",
+      "href": "mailto:TqKkC@example.com"
     },
     "list-texts": [
       { "id": 1, "text": "Quick account creation" },
       { "id": 2, "text": "No commitment — cancel at any time" },
       { "id": 3, "text": "Join over 45 million other users" }
     ]
+  },
+  "section-ten": {
+    "text": {
+      "back": "RESULTS",
+      "front": "HealthyBite reviews"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "title": "10 kgs in 3 weeks",
+        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "author": {
+          "name": "Anshuman Khuranna",
+          "desc": "3 week weight meal plan"
+        },
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "alt": "chico mostrando su cambio fisico"
+        }
+      },
+      {
+        "id": 2,
+        "title": "10 kgs in 3 weeks",
+        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "author": {
+          "name": "Anshuman Khuranna",
+          "desc": "3 week weight meal plan"
+        },
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "alt": "chico mostrando su cambio fisico"
+        }
+      },
+      {
+        "id": 3,
+        "title": "10 kgs in 3 weeks",
+        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "author": {
+          "name": "Anshuman Khuranna",
+          "desc": "3 week weight meal plan"
+        },
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "alt": "chico mostrando su cambio fisico"
+        }
+      },
+      {
+        "id": 4,
+        "title": "10 kgs in 3 weeks",
+        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "author": {
+          "name": "Anshuman Khuranna",
+          "desc": "3 week weight meal plan"
+        },
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "alt": "chico mostrando su cambio fisico"
+        }
+      }
+    ]
+  },
+  "section-eleven": {
+    "text": {
+      "left": "A whole year of",
+      "middle": "HEALTHYBITE",
+      "right": " costs about the same as 1 hour with a nutrition expert."
+    }
+  },
+  "section-footer": {
+    "footer-links": [
+      {
+        "id": 1,
+        "text": "Terms & Conditions",
+        "href": "#terms_and_conditions",
+        "title": "terms and conditions"
+      },
+      {
+        "id": 2,
+        "text": "Privacy Policy",
+        "href": "#privacy_policy",
+        "title": "Privacy Policy"
+      }
+    ],
+    "footer-social": [
+      {
+        "id": 1,
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/v1713817485/landing-ia/iywcmjjom9usky2fnehp.svg",
+        "title": "Linkedin icono",
+        "href": "https://www.linkedin.com/company/example/"
+      },
+      {
+        "id": 2,
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/v1713817485/landing-ia/iywcmjjom9usky2fnehp.svg",
+        "title": "Linkedin icono",
+        "href": "https://www.linkedin.com/company/example/"
+      }
+    ],
+    "footer-copyright": "HealthyBite. All rights reserved."
   }
 }

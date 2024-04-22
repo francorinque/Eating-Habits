@@ -8,7 +8,7 @@ const HealthyBite = () => {
   const right = data["section-four"].title.right;
 
   return (
-    <div>
+    <div id='have_a_healthy_bite_for'>
       <BigText textLeft={left} textMiddle={middle} textRight={right} />
       {/* list */}
       <div className='grid grid-cols-list gap-[50px] items-center justify-center lg:justify-around'>

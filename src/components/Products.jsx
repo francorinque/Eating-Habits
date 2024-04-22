@@ -1,11 +1,14 @@
 import data from "../data.json";
+import PrimaryButton from "./ui/PrimaryButton";
 import BigText from "./ui/BigText";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
-import PrimaryButton from "./ui/PrimaryButton";
+import "swiper/css/pagination";
+// import required modules
+import { Pagination } from "swiper/modules";
 
 const Products = () => {
   const left = data["section-seven"].title.left;
@@ -13,7 +16,7 @@ const Products = () => {
   const products = data["section-seven"]["list-products"];
 
   return (
-    <div className='p-5 lg:p-8  bg-bg rounded-md shadow-md'>
+    <div className='p-5 lg:p-8  bg-bg rounded-md shadow-md' id='products'>
       <BigText textLeft={left} textRight={right} toRigth={true} />
       <div>
         <p className='text-center lg:text-left text-[14px] text-pretty'>
@@ -34,6 +37,10 @@ const Products = () => {
       </div>
       {/* slider */}
       <Swiper
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
         breakpoints={{
           100: {
             slidesPerView: 1,

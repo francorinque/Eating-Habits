@@ -3,7 +3,7 @@ import BigText from "./ui/BigText";
 
 const WhatIs = () => {
   return (
-    <div>
+    <div id='What_is_a_HealthyBite'>
       <BigText
         textLeft={data["section-six"].title.left}
         textMiddle={data["section-six"].title.middle}
@@ -23,7 +23,7 @@ const WhatIs = () => {
         <ul className='grid gap-8 items-center md:grid-cols-2'>
           {data["section-six"].items.map((item) => (
             <li className='w-full flex items-center justify-start gap-5'>
-              <span className='w-5 h-5 bg-bg block rounded-full' />
+              <span className='w-5 h-5 bg-gradient-to-r from-primary-dark-green/50 to-secondary-medium-green block rounded-full' />
               <span>{item.text}</span>
             </li>
           ))}

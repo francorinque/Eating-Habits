@@ -1,38 +1,18 @@
 import data from "../../data.json";
 import MyLink from "../ui/MyLink";
-import OutlineButton from "../ui/OutlineButton";
 
 const MenuDesktop = () => {
   const { links } = data["section-nav"];
 
   return (
-    <div className='hidden w-full md:flex items-center justify-between pl-10'>
+    <div className='hidden w-full lg:flex items-center'>
       {/* links */}
-      <ul className='flex items-center justify-start gap-4'>
+      <ul className='w-full flex items-center justify-end gap-5'>
         {links.map((link) => (
           <li key={link.id}>
-            <MyLink href={link.href} text={link.text} />
+            <MyLink href={link.href} text={link.text} title={link.title} />
           </li>
         ))}
-      </ul>
-      {/* buttons */}
-      <ul className='flex items-center gap-4'>
-        <li>
-          <button className=' w-full'>
-            <MyLink
-              href={data["section-nav"]["button-one"].href}
-              text={data["section-nav"]["button-one"].text}
-            />
-          </button>
-        </li>
-        <li>
-          <OutlineButton>
-            <MyLink
-              href={data["section-nav"]["button-two"].href}
-              text={data["section-nav"]["button-two"].text}
-            />
-          </OutlineButton>
-        </li>
       </ul>
     </div>
   );
