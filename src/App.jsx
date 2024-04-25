@@ -7,6 +7,7 @@ import LifeStyle from "./components/LifeStyle";
 import Navbar from "./components/Navbar/Navbar";
 import Plans from "./components/Plans";
 import Products from "./components/Products";
+import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Slogan from "./components/Slogan";
 import Start from "./components/Start";
@@ -36,6 +37,9 @@ function App() {
         </section>
         <section className='py-[100px]'>
           <HealthyBite />
+        </section>
+        <section className='py-[100px]'>
+          <Projects />
         </section>
         <section className='py-[100px]'>
           <WhatIs />

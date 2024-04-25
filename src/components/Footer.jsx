@@ -12,11 +12,23 @@ const Footer = () => {
       </div>
       {/* links */}
       <ul className='flex flex-wrap justify-center gap-4 mt-10'>
-        {data["section-nav"].links.map((link) => (
-          <li key={link.id}>
-            <MyLink href={link.href} text={link.text} title={link.title} />
-          </li>
-        ))}
+        {data["section-nav"].links.map((link) =>
+          link.isExternal ? (
+            <li key={link.id}>
+              <MyLink
+                href={link.href}
+                text={link.text}
+                title={link.title}
+                target='_blank'
+                rel='noreferrer'
+              />
+            </li>
+          ) : (
+            <li key={link.id}>
+              <MyLink href={link.href} text={link.text} title={link.title} />
+            </li>
+          )
+        )}
       </ul>
       <ul className='flex justify-center gap-4 mt-5'>
         {data["section-footer"]["footer-links"].map((link) => (
