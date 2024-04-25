@@ -20,11 +20,23 @@ const MenuMobile = ({ isOpen, onClick }) => {
          *:p-2 *:w-full *:text-center
         `}
       >
-        {links.map((link) => (
-          <li key={link.id}>
-            <MyLink href={link.href} text={link.text} />
-          </li>
-        ))}
+        {links.map((link) =>
+          link.isExternal ? (
+            <li key={link.id}>
+              <MyLink
+                href={link.href}
+                text={link.text}
+                title={link.title}
+                target='_blank'
+                rel='noreferrer'
+              />
+            </li>
+          ) : (
+            <li key={link.id}>
+              <MyLink href={link.href} text={link.text} title={link.title} />
+            </li>
+          )
+        )}
       </ul>
     </div>
   );

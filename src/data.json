@@ -6,49 +6,71 @@
         "id": 1,
         "text": "Home",
         "href": "#home",
-        "title": "Home"
+        "title": "Home",
+        "isExternal": false
       },
       {
         "id": 2,
         "text": "Life style",
         "href": "#life-style",
-        "title": "Life style"
+        "title": "Life style",
+        "isExternal": false
       },
       {
         "id": 3,
         "text": "Plans",
         "href": "#plans",
-        "title": "plans"
+        "title": "plans",
+        "isExternal": false
       },
       {
         "id": 4,
         "text": "Have a Healthy Bite For",
         "href": "#have_a_healthy_bite_for",
-        "title": "Have a Healthy Bite For"
+        "title": "Have a Healthy Bite For",
+        "isExternal": false
       },
       {
         "id": 5,
         "text": "What is a HealthyBite",
         "href": "#What_is_a_HealthyBite",
-        "title": "What is a HealthyBite"
+        "title": "What is a HealthyBite",
+        "isExternal": false
       },
       {
         "id": 6,
         "text": "Products",
         "href": "#products",
-        "title": "Products"
+        "title": "Products",
+        "isExternal": false
       },
       {
         "id": 7,
         "text": "Contact",
         "href": "#contact",
-        "title": "Contact"
+        "title": "Contact",
+        "isExternal": false
       },
       {
         "id": 8,
         "text": "Reviews",
         "href": "#reviews",
-        "title": "Reviews"
+        "title": "Reviews",
+        "isExternal": false
+      },
+      {
+        "id": 9,
+        "text": "Blog",
+        "href": "https://midu.dev/",
+        "title": "Blog",
+        "isExternal": true
+      },
+      {
+        "id": 10,
+        "text": "Projects",
+        "href": "#projects",
+        "title": "Projects",
+        "isExternal": false
       }
     ]
   },
@@ -463,5 +485,31 @@
       }
     ],
     "footer-copyright": "HealthyBite. All rights reserved."
+  },
+  "section-projects": {
+    "text": {
+      "left": "Our",
+      "right": "Projects"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Project 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies lacinia, nisl nisl aliquet nisl, eget ultricies nisl nisl aliquet nisl.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1714069100/bciwfshbuvos1ejjtiy1.webp",
+          "alt": "project 1"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Project 2",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies lacinia, nisl nisl aliquet nisl, eget ultricies nisl nisl aliquet nisl.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1714069100/bciwfshbuvos1ejjtiy1.webp",
+          "alt": "project 2"
+        }
+      }
+    ]
   }
 }

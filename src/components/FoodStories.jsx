@@ -55,7 +55,7 @@ const FoodStories = () => {
                 className='w-full h-full object-contain'
               />
             </div>
-            <div className='p-4 h-fit-content bg-bg rounded-md flex flex-col justify-center gap-2'>
+            <div className='p-4 h-fit-content bg-bg rounded-md flex flex-col justify-center gap-2 shadow-md'>
               <h4 className='text-[18px] font-semibold text-primary-dark-green'>
                 {story.text}
               </h4>
