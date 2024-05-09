@@ -1,21 +1,21 @@
-import data from "../data.json";
+import data from '../data.json';
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Reviews = () => {
   return (
     <div id='reviews'>
       <div className='relative text-center'>
         <h2 className='text-[50px] font-bold md:text-[100px]  text-[#e7e7e7] '>
-          {data["section-ten"].text.back}
+          {data['section-ten'].text.back}
         </h2>
         <div
           className='absolute  left-0 top-0 w-full h-full
@@ -23,7 +23,7 @@ const Reviews = () => {
          '
         >
           <span className='text-[20px] lg:text-[30px] font-semibold'>
-            {data["section-ten"].text.front}
+            {data['section-ten'].text.front}
           </span>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Reviews = () => {
         spaceBetween={20}
         className='py-[50px]'
       >
-        {data["section-ten"].reviews.map((review) => (
+        {data['section-ten'].reviews.map((review) => (
           <SwiperSlide
             key={review.id}
             className='shadow-md  overflow-hidden rounded-md  h-[600px] lg:h-[350px]'
@@ -62,8 +62,7 @@ const Reviews = () => {
                   {review.desc}
                 </p>
                 <div>
-                  <h6 className='text-[25px]'>{review.author.name}</h6>
-                  <span>{review.author.desc}</span>
+                  <h6 className='text-[20px]'>{review.author.name}</h6>
                 </div>
               </div>
               {/* img */}

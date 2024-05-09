@@ -1,18 +1,18 @@
-import data from "../data.json";
-import BigText from "./ui/BigText";
-import SeparatorGradient from "./ui/SeparatorGradient";
+import data from '../data.json';
+import BigText from './ui/BigText';
+import SeparatorGradient from './ui/SeparatorGradient';
 
 const HealthyBite = () => {
-  const left = data["section-four"].title.left;
-  const middle = data["section-four"].title.middle;
-  const right = data["section-four"].title.right;
+  const left = data['section-four'].title.left;
+  const middle = data['section-four'].title.middle;
+  const right = data['section-four'].title.right;
 
   return (
-    <div id='have_a_healthy_bite_for'>
+    <div id='healthybite'>
       <BigText textLeft={left} textMiddle={middle} textRight={right} />
       {/* list */}
       <div className='grid grid-cols-list gap-[50px] items-center justify-center lg:justify-around'>
-        {data["section-four"].items.map((item) => (
+        {data['section-four'].items.map((item) => (
           <div>
             <div className='flex flex-col gap-2 items-center text-center lg:flex-row'>
               <img src={item.img.url} alt={item.img.alt} />
