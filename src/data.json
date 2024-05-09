@@ -1,72 +1,93 @@
 {
   "section-nav": {
-    "logo": "https://res.cloudinary.com/dj0postuh/image/upload/v1713461491/landing-ia/logo/logo-with-text.svg",
+    "logo": "/icono.svg",
     "links": [
       {
-        "id": 1,
+        "id": "ae546d41-1631-4d82-b1c1-9aba6a5ab98e",
         "text": "Home",
         "href": "#home",
         "title": "Home",
         "isExternal": false
       },
       {
-        "id": 2,
+        "id": "d7b1235d-e5f8-4734-ae62-ce037177f875",
         "text": "Life style",
         "href": "#life-style",
         "title": "Life style",
         "isExternal": false
       },
       {
-        "id": 3,
+        "id": "736db1bc-0fb5-44dd-a119-bc4eafbc7cef",
+        "text": "FutureFeast",
+        "href": "#future_feast",
+        "title": "FutureFeast",
+        "isExternal": false
+      },
+      {
+        "id": "89b3ddbc-3113-42ec-89e0-1b3aaefac6ff",
         "text": "Plans",
         "href": "#plans",
         "title": "plans",
         "isExternal": false
       },
       {
-        "id": 4,
-        "text": "Have a Healthy Bite For",
-        "href": "#have_a_healthy_bite_for",
-        "title": "Have a Healthy Bite For",
+        "id": "e702278b-efb7-48ce-a5e2-53ca83ce761b",
+        "text": "NutriNexus",
+        "href": "#nutri_nexus",
+        "title": "NutriNexus",
         "isExternal": false
       },
       {
-        "id": 5,
-        "text": "What is a HealthyBite",
-        "href": "#What_is_a_HealthyBite",
-        "title": "What is a HealthyBite",
+        "id": "25afd3c8-f1ea-4d0d-adf4-10c5c4982595",
+        "text": "HealthyBite",
+        "href": "#healthybite",
+        "title": "HealthyBite",
         "isExternal": false
       },
       {
-        "id": 6,
+        "id": "7a406566-fb4a-4f14-8248-43c14be15852",
         "text": "Products",
         "href": "#products",
         "title": "Products",
         "isExternal": false
       },
       {
-        "id": 7,
+        "id": "55a8a461-3cba-447e-9fb4-1eedf1d0988a",
+        "text": "Benefits",
+        "href": "#benefits",
+        "title": "Benefits",
+        "isExternal": false
+      },
+      {
+        "id": "573f383f-6b24-4994-a6d5-05bf241022d3",
+        "text": "Food Stories",
+        "href": "#food_stories",
+        "title": "Food Stories",
+        "isExternal": false
+      },
+      {
+        "id": "37c5d292-73f2-4f7f-b2d0-6017a3bbc6ee",
         "text": "Contact",
         "href": "#contact",
         "title": "Contact",
         "isExternal": false
       },
       {
-        "id": 8,
+        "id": "f24c6669-165f-48b2-aa5f-baf553f3f94b",
         "text": "Reviews",
         "href": "#reviews",
         "title": "Reviews",
         "isExternal": false
       },
       {
-        "id": 9,
+        "id": "40a90238-b47e-45d6-b421-e5d8dbebd0cc",
         "text": "Blog",
         "href": "https://midu.dev/",
         "title": "Blog",
         "isExternal": true
       },
       {
-        "id": 10,
+        "id": "5081b70c-5a7b-4d6d-a12e-351403d93a14",
         "text": "Projects",
         "href": "#projects",
         "title": "Projects",
@@ -269,7 +290,7 @@
         "text": "Whey protein Bodybuilding supplement Nutrition",
         "info": "Net wt : 1.7kg",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "url": "/product-1.jpg",
           "alt": "producto"
         }
       },
@@ -278,7 +299,7 @@
         "text": "Whey protein Bodybuilding supplement Nutrition",
         "info": "Net wt : 1.7kg",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "url": "/product-2.jpg",
           "alt": "producto"
         }
       },
@@ -287,16 +308,7 @@
         "text": "Whey protein Bodybuilding supplement Nutrition",
         "info": "Net wt : 1.7kg",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
-          "alt": "producto"
-        }
-      },
-      {
-        "id": 4,
-        "text": "Whey protein Bodybuilding supplement Nutrition",
-        "info": "Net wt : 1.7kg",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713803190/landing-ia/mj5whqijtucvrhb2zzds.png",
+          "url": "/product-3.jpg",
           "alt": "producto"
         }
       }
@@ -304,6 +316,10 @@
     "btn": {
       "href": "#",
       "text": "Buy"
+    },
+    "slogan": {
+      "title": "That makes us different:",
+      "desc": "What sets us apart is our ability to combine data science with a passion for food. Our platform uses machine learning artificial intelligence algorithms and big data coding to analyze historical data and accurately anticipate trends. In addition, we focus on offering a joint alternative for the eating habits of both people and pets, which differentiates us from other solutions on the market."
     }
   },
   "section-eight": {
@@ -318,8 +334,8 @@
         "text": "Diet, Fitness",
         "desc": "Get all the protein you need on a plant based diet",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
+          "url": "/sirviendo-licuado.jpg",
+          "alt": "mujer sirviendose licuado"
         }
       },
       {
@@ -327,8 +343,8 @@
         "text": "Diet, Fitness",
         "desc": "Get all the protein you need on a plant based diet",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
+          "url": "/frutas-vegetales.jpg",
+          "alt": "frutas y vegetales en la mesa"
         }
       },
       {
@@ -336,35 +352,8 @@
         "text": "Diet, Fitness",
         "desc": "Get all the protein you need on a plant based diet",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
-        }
-      },
-      {
-        "id": 4,
-        "text": "Diet, Fitness",
-        "desc": "Get all the protein you need on a plant based diet",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
-        }
-      },
-      {
-        "id": 5,
-        "text": "Diet, Fitness",
-        "desc": "Get all the protein you need on a plant based diet",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
-        }
-      },
-      {
-        "id": 6,
-        "text": "Diet, Fitness",
-        "desc": "Get all the protein you need on a plant based diet",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713806861/landing-ia/hpr4bnvzvw3ozep7vw1w.jpg",
-          "alt": "mujer comiendo felizmente"
+          "url": "/cortando-fruta.jpg",
+          "alt": "mujer cortando fruta"
         }
       }
     ],
@@ -396,53 +385,49 @@
     "reviews": [
       {
         "id": 1,
-        "title": "10 kgs in 3 weeks",
-        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "title": "10 kgs in 6 weeks",
+        "desc": "I am impressed with the results I have achieved with FoodVisionInsights. Thanks to their platform, I have been able to better understand my eating habits and I have lost 12 kilos in the last six months. I feel healthier and more energetic than ever!",
         "author": {
-          "name": "Anshuman Khuranna",
-          "desc": "3 week weight meal plan"
+          "name": "Sophie Müller, 38 years old (Germany)"
         },
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "url": "/testimonial-1.jpg",
           "alt": "chico mostrando su cambio fisico"
         }
       },
       {
         "id": 2,
-        "title": "10 kgs in 3 weeks",
-        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "title": "40 kgs in 8 weeks",
+        "desc": "FoodVisionInsights has been an incredible tool in my weight loss journey. With its help, I have been able to make more informed decisions about my diet and have lost 20 pounds in just three months. I am very happy with the results!",
         "author": {
-          "name": "Anshuman Khuranna",
-          "desc": "3 week weight meal plan"
+          "name": "Lukas Jansen, 33 years old (Netherlands)"
         },
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "url": "/testimonial-2.jpg",
           "alt": "chico mostrando su cambio fisico"
         }
       },
       {
         "id": 3,
-        "title": "10 kgs in 3 weeks",
-        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "title": "42 kgs in 9 weeks",
+        "desc": "I am so grateful to FoodVisionInsights for helping me reach my weight goal. Their platform has provided me with valuable insights into nutrition and eating habits, and in just four months, I have lost 25 pounds. I feel fantastic!",
         "author": {
-          "name": "Anshuman Khuranna",
-          "desc": "3 week weight meal plan"
+          "name": "Isabella Rossi, 29 years old (Italy)"
         },
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "url": "/testimonial-3.jpg",
           "alt": "chico mostrando su cambio fisico"
         }
       },
       {
         "id": 4,
-        "title": "10 kgs in 3 weeks",
-        "desc": "This platform is like the best thing that has happened to my health. I was shocked how my cravings were gone after only a couple of days and not wanting to eat between meals really helped. Losing 6 kg in only 3 weeks is fantastic, but the best part is the health improvement.",
+        "title": "33 kgs in 7 weeks",
+        "desc": "FoodVisionInsights has changed my life. Thanks to its innovative approach to weight loss, I have managed to lose 18 kilos in six months. I am impressed with the results and feel healthier and fitter than ever before.",
         "author": {
-          "name": "Anshuman Khuranna",
-          "desc": "3 week weight meal plan"
+          "name": "Maximilian Schmidt, 42 years old (Germany)"
         },
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713811558/landing-ia/oc9ymoyv2obkqjeeeupm.webp",
+          "url": "/testimonial-4.jpg",
           "alt": "chico mostrando su cambio fisico"
         }
       }
@@ -454,6 +439,36 @@
       "middle": "HEALTHYBITE",
       "right": " costs about the same as 1 hour with a nutrition expert."
     }
+  },
+  "section-twelve": {
+    "title": {
+      "left": "Feeding the future, anticipating your desires.",
+      "right": "anticipating your desires."
+    },
+    "texts": {
+      "one": {
+        "subtitle": "Why trust us:",
+        "desc": "You can trust us because we are committed to excellence, integrity and innovation. Our platform has been developed by a team of experts in artificial intelligence and food, guaranteeing the highest quality and precision in our services. Additionally, we are trusted by a wide range of users, including food industry companies, conscious consumers and nutrition experts."
+      },
+      "two": {
+        "subtitle": "Who has trusted us:",
+        "desc": "Our clients include food and beverage companies, supermarkets, veterinarians, nutritionists, and pet and food lovers who value accuracy and innovation in food trend analysis."
+      }
+    },
+    "images": ["/mujer-con-manzana.jpg", "/mujer-con-perro.webp"]
+  },
+  "section-thirteen": {
+    "title": {
+      "left": "Discover the Future of ",
+      "right": "Food with FoodVisionInsights"
+    },
+    "subtitle": "At FoodVisionInsights, we are at the forefront of the food revolution. We specialize in creating AI-powered solutions that anticipate trends and detect changes in the eating habits of consumers, both human and furry.",
+    "list-p": [
+      "Imagine having the ability to predict which foods will be the next favorites on the market, understand how people's tastes are evolving, and anticipate emerging dietary needs. That's exactly what we do at FoodVisionInsights.",
+      "Our mission is to provide an innovative platform that is not only one step ahead of food trends, but also offers a comprehensive view of eating habits for both people and pets. We strive to create a comprehensive alternative that covers all aspects of food consumption.",
+      "To achieve this, we combine the power of machine learning artificial intelligence algorithms and big data coding. We analyze historical data from our platform and merge it with other internal and external sources to obtain a complete and accurate view of the food landscape.",
+      "At FoodVisionInsights, we don't just anticipate the future of food, we create it. Join us on this journey towards a smarter, more conscious and more delicious food industry than ever before."
+    ]
   },
   "section-footer": {
     "footer-links": [
