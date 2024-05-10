@@ -1,5 +1,4 @@
 import data from '../data.json';
-import PrimaryButton from './ui/PrimaryButton';
 import BigText from './ui/BigText';
 
 // Import Swiper React components
@@ -19,14 +18,14 @@ const Products = () => {
   return (
     <div className='p-5 lg:p-8  bg-bg rounded-md shadow-md' id='products'>
       <BigText textLeft={left} textRight={right} toRigth={true} />
-      <div>
-        <p className='text-center lg:text-left text-[14px] text-pretty'>
+      <div className='w-full'>
+        <p className='text-center text-[14px] text-pretty'>
           {data['section-seven'].desc}
         </p>
         {/* list */}
-        <ul className='my-10 flex gap-5 flex-col '>
+        <ul className='my-[50px] flex gap-5  lg:gap-10 flex-col lg:flex-row lg:justify-center w-full'>
           {data['section-seven']['list-texts'].map((item) => (
-            <li className='flex w-full items-center gap-4'>
+            <li className='flex  justify-start items-center gap-4'>
               <img
                 src='https://res.cloudinary.com/dj0postuh/image/upload/v1713560281/landing-ia/check-red.svg'
                 alt='check svg'
@@ -94,7 +93,7 @@ const Products = () => {
           {data['section-seven'].btn.text}
         </a>
       </PrimaryButton> */}
-      <div className='mt-8 text-left  max-w-[800px]'>
+      <div className='mt-8 text-center mx-auto  max-w-[800px]'>
         <h2 className='text-[18px] font-semibold'>{slogan.title}</h2>
         <p className='text-[14px] mt-2'>{slogan.desc}</p>
       </div>

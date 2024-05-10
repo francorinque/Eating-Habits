@@ -1,11 +1,11 @@
-import data from "../../data.json";
+import data from '../../data.json';
 
 const Logo = () => {
   return (
     <img
-      src={`${data["section-nav"].logo}`}
+      src={`${data['section-nav'].logo}`}
       alt='Logo svg de un texto y una manzana'
-      className='w-[150px]'
+      className='w-[190px]'
     />
   );
 };

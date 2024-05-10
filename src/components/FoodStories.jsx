@@ -62,7 +62,11 @@ const FoodStories = () => {
               <p>{story.desc}</p>
               <div className='h-[1px] w-full bg-black-200/5 mt-5' />
               <div className='flex items-center gap-2 hover:text-black-100/90'>
-                <a href='#' rel='noreferrer' target='_blank'>
+                <a
+                  href={data['section-eight']['stories-btn'].href}
+                  rel='noreferrer'
+                  target='_blank'
+                >
                   {data['section-eight']['stories-btn'].text}
                 </a>
                 <BsArrowRight />
