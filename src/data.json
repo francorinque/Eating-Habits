@@ -82,7 +82,7 @@
       {
         "id": "40a90238-b47e-45d6-b421-e5d8dbebd0cc",
         "text": "Blog",
-        "href": "https://midu.dev/",
+        "href": "https://foodvisioninsights.blog.akiladigital.com",
         "title": "Blog",
         "isExternal": true
       },
@@ -359,7 +359,7 @@
     ],
     "stories-btn": {
       "text": "Read more",
-      "href": "#"
+      "href": "https://foodvisioninsights.blog.akiladigital.com"
     }
   },
   "section-nine": {
@@ -369,7 +369,7 @@
     },
     "btn": {
       "text": "Contact",
-      "href": "mailto:TqKkC@example.com"
+      "href": "mailto:foodvisioninsights@gmail.com"
     },
     "list-texts": [
       { "id": 1, "text": "Quick account creation" },
@@ -504,25 +504,16 @@
   "section-projects": {
     "text": {
       "left": "Our",
-      "right": "Projects"
+      "right": "Project"
     },
     "projects": [
       {
         "id": 1,
-        "title": "Project 1",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies lacinia, nisl nisl aliquet nisl, eget ultricies nisl nisl aliquet nisl.",
+        "title": "IA PARA ANTICIPAR TENDENCIAS Y DETECTAR CAMBIOS EN LOS HÁBITOS DE ALIMENTACIÓN DE LOS CONSUMIDORES (Plataforma Para Los Hábitos Alimentarios De Personas Y Mascotas)",
+        "desc": "Nuestra IA anticipa tendencias y detecta cambios en los hábitos alimentarios de consumidores y mascotas, ofreciendo una plataforma única para comprender el mercado de manera ágil y precisa.",
         "img": {
           "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1714069100/bciwfshbuvos1ejjtiy1.webp",
-          "alt": "project 1"
-        }
-      },
-      {
-        "id": 2,
-        "title": "Project 2",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies lacinia, nisl nisl aliquet nisl, eget ultricies nisl nisl aliquet nisl.",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1714069100/bciwfshbuvos1ejjtiy1.webp",
-          "alt": "project 2"
+          "alt": "IA PARA ANTICIPAR TENDENCIAS Y DETECTAR CAMBIOS EN LOS HÁBITOS DE ALIMENTACIÓN DE LOS CONSUMIDORES (Plataforma Para Los Hábitos Alimentarios De Personas Y Mascotas)"
         }
       }
     ]
