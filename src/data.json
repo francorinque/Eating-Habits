@@ -68,7 +68,7 @@
       {
         "id": "37c5d292-73f2-4f7f-b2d0-6017a3bbc6ee",
         "text": "Contact",
-        "href": "#contact",
+        "href": "mailto:fooddect@gmail.com",
         "title": "Contact",
         "isExternal": false
       },
@@ -82,7 +82,7 @@
       {
         "id": "40a90238-b47e-45d6-b421-e5d8dbebd0cc",
         "text": "Blog",
-        "href": "https://foodvisioninsights.blog.akiladigital.com",
+        "href": "https://fooddect.blog.akiladigital.com",
         "title": "Blog",
         "isExternal": true
       },
@@ -386,7 +386,7 @@
       {
         "id": 1,
         "title": "10 kgs in 6 weeks",
-        "desc": "I am impressed with the results I have achieved with FoodVisionInsights. Thanks to their platform, I have been able to better understand my eating habits and I have lost 12 kilos in the last six months. I feel healthier and more energetic than ever!",
+        "desc": "I am impressed with the results I have achieved with Fooddect. Thanks to their platform, I have been able to better understand my eating habits and I have lost 12 kilos in the last six months. I feel healthier and more energetic than ever!",
         "author": {
           "name": "Sophie Müller, 38 years old (Germany)"
         },
@@ -398,7 +398,7 @@
       {
         "id": 2,
         "title": "40 kgs in 8 weeks",
-        "desc": "FoodVisionInsights has been an incredible tool in my weight loss journey. With its help, I have been able to make more informed decisions about my diet and have lost 20 pounds in just three months. I am very happy with the results!",
+        "desc": "Fooddect has been an incredible tool in my weight loss journey. With its help, I have been able to make more informed decisions about my diet and have lost 20 pounds in just three months. I am very happy with the results!",
         "author": {
           "name": "Lukas Jansen, 33 years old (Netherlands)"
         },
@@ -410,7 +410,7 @@
       {
         "id": 3,
         "title": "42 kgs in 9 weeks",
-        "desc": "I am so grateful to FoodVisionInsights for helping me reach my weight goal. Their platform has provided me with valuable insights into nutrition and eating habits, and in just four months, I have lost 25 pounds. I feel fantastic!",
+        "desc": "I am so grateful to Fooddect for helping me reach my weight goal. Their platform has provided me with valuable insights into nutrition and eating habits, and in just four months, I have lost 25 pounds. I feel fantastic!",
         "author": {
           "name": "Isabella Rossi, 29 years old (Italy)"
         },
@@ -422,7 +422,7 @@
       {
         "id": 4,
         "title": "33 kgs in 7 weeks",
-        "desc": "FoodVisionInsights has changed my life. Thanks to its innovative approach to weight loss, I have managed to lose 18 kilos in six months. I am impressed with the results and feel healthier and fitter than ever before.",
+        "desc": "Fooddect has changed my life. Thanks to its innovative approach to weight loss, I have managed to lose 18 kilos in six months. I am impressed with the results and feel healthier and fitter than ever before.",
         "author": {
           "name": "Maximilian Schmidt, 42 years old (Germany)"
         },
@@ -460,14 +460,14 @@
   "section-thirteen": {
     "title": {
       "left": "Discover the Future of ",
-      "right": "Food with FoodVisionInsights"
+      "right": "Food with Fooddect "
     },
-    "subtitle": "At FoodVisionInsights, we are at the forefront of the food revolution. We specialize in creating AI-powered solutions that anticipate trends and detect changes in the eating habits of consumers, both human and furry.",
+    "subtitle": "At Fooddect, we are at the forefront of the food revolution. We specialize in creating AI-powered solutions that anticipate trends and detect changes in the eating habits of consumers, both human and furry.",
     "list-p": [
       "Imagine having the ability to predict which foods will be the next favorites on the market, understand how people's tastes are evolving, and anticipate emerging dietary needs. That's exactly what we do at FoodVisionInsights.",
       "Our mission is to provide an innovative platform that is not only one step ahead of food trends, but also offers a comprehensive view of eating habits for both people and pets. We strive to create a comprehensive alternative that covers all aspects of food consumption.",
       "To achieve this, we combine the power of machine learning artificial intelligence algorithms and big data coding. We analyze historical data from our platform and merge it with other internal and external sources to obtain a complete and accurate view of the food landscape.",
-      "At FoodVisionInsights, we don't just anticipate the future of food, we create it. Join us on this journey towards a smarter, more conscious and more delicious food industry than ever before."
+      "At Fooddect, we don't just anticipate the future of food, we create it. Join us on this journey towards a smarter, more conscious and more delicious food industry than ever before."
     ]
   },
   "section-footer": {
@@ -509,11 +509,11 @@
     "projects": [
       {
         "id": 1,
-        "title": "IA PARA ANTICIPAR TENDENCIAS Y DETECTAR CAMBIOS EN LOS HÁBITOS DE ALIMENTACIÓN DE LOS CONSUMIDORES (Plataforma Para Los Hábitos Alimentarios De Personas Y Mascotas)",
-        "desc": "Nuestra IA anticipa tendencias y detecta cambios en los hábitos alimentarios de consumidores y mascotas, ofreciendo una plataforma única para comprender el mercado de manera ágil y precisa.",
+        "title": "AI TO ANTICIPATE TRENDS AND DETECT CHANGES IN CONSUMERS' EATING HABITS (Platform for People's and Pets' Eating Habits)",
+        "desc": "Our AI anticipates trends and detects changes in the eating habits of consumers and pets, offering a unique platform to understand the market in an agile and precise way.",
         "img": {
           "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1714069100/bciwfshbuvos1ejjtiy1.webp",
-          "alt": "IA PARA ANTICIPAR TENDENCIAS Y DETECTAR CAMBIOS EN LOS HÁBITOS DE ALIMENTACIÓN DE LOS CONSUMIDORES (Plataforma Para Los Hábitos Alimentarios De Personas Y Mascotas)"
+          "alt": "AI TO ANTICIPATE TRENDS AND DETECT CHANGES IN CONSUMERS' EATING HABITS (Platform for People's and Pets' Eating Habits)"
         }
       }
     ]
