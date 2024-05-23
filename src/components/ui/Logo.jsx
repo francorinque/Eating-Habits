@@ -5,7 +5,7 @@ const Logo = () => {
     <img
       src={`${data['section-nav'].logo}`}
       alt='Logo svg de un texto y una manzana'
-      className='w-[190px]'
+      className='w-[60px] md:w-[70px]'
     />
   );
 };
